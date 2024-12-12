@@ -106,6 +106,7 @@ The view above shows that your data will be displayed in the following format: *
 3. Add another 6,6 layout grid below the above grid and drag the `{Name}` and `{Code}` attributes into the respective columns.
 
 The list view should now display tools clearly, with separate columns for names and codes. Like so:
+
 {{< figure src="/updated-tools-overview-main.png" alt="Updated Tools Overview page" width="100%">}}
 
 Now, add a custom logic to validate inputs using microflow.
@@ -134,6 +135,7 @@ To get started, open the **Tools_NewEdit** page. This page will look like the im
 4. Update the **End Event** to remove suggestions (e.g., `$IsValid`) and set the return type to **Nothing**
 
 At this point, the updated microflow should look like the below:
+
 {{< figure src="/updated-Tools_NewEdit-microflow.png" alt="Updated Tools NewEdit microflow" width="100%">}}
 
 The next step in building this web application is to add navigation.
@@ -145,7 +147,8 @@ The [navigation](https://docs.mendix.com/refguide/navigation/) defines the app s
 1. Open the **Navigation** in the **App Explorer**
 2. Add two menu items - “Tools” and “Tools Editor”
 3. Configure each menu item: 1. Set the **On Click** action to **Show Page** and select the appropriate page 1. **Tools:** Links to the **Tools_Overview_Main** page 2. **Tools Editor:** Links to the **Tools_Overview** page 2. For **Close Pages**, set it to "All" to ensure a clean navigation experience.
-   {{< figure src="/navigation.png" alt="Navigation" width="100%">}}
+
+{{< figure src="/navigation.png" alt="Navigation" width="100%">}}
 
 Now, the app is ready to be tested and used.
 
