@@ -94,8 +94,7 @@ This new page will display a read-only list of tools. It’s distinct from the *
    3. Click **OK** and choose **Yes** when prompted to auto-fill the list
 
 At this point, your view should look like this:
-
-{{< figure src="/tools-overview-main.png" alt="Tools Overview page" width="100%">}}
+![](/images/tools-overview-main.png)
 
 The view above shows that your data will be displayed in the following format: **Hammer18282992**, where "Hammer" is the tool's name and "18282992" is the associated code. This format may be confusing for users. To enhance clarity, customize the list view following the steps below:
 
@@ -107,7 +106,7 @@ The view above shows that your data will be displayed in the following format: *
 
 The list view should now display tools clearly, with separate columns for names and codes. Like so:
 
-{{< figure src="/updated-tools-overview-main.png" alt="Updated Tools Overview page" width="100%">}}
+![](/images/updated-tools-overview-main.png)
 
 Now, add a custom logic to validate inputs using microflow.
 
@@ -120,12 +119,12 @@ Now, add a custom logic to validate inputs using microflow.
 
 To get started, open the **Tools_NewEdit** page. This page will look like the image below:
 
-{{< figure src="/Tools_NewEdit-page.png" alt="Tools NewEdit page" width="100%">}}
+![](/images/Tools_NewEdit-page.png)
 
 1. Right-click the **Save** button and select **Generate Validation Microflow.** This generates two microflows: **ACT_Tools_NewEdit** and **VAL_Tools_NewEdit**
 2. Open **ACT_Tools_NewEdit.** At this stage, this microflow will look like so:
 
-{{< figure src="/Tools_NewEdit-microflow.png" alt="Tools NewEdit microflow" width="100%">}}
+![](/images/Tools_NewEdit-microflow.png)
 
 1. Double-click the **Commit 'Tools'** action and enable **Refresh in Client** to ensure updates are visible immediately
 2. Drag a **Show Message** action activity between the **Commit 'Tools'** and **Close Page** actions
@@ -136,7 +135,7 @@ To get started, open the **Tools_NewEdit** page. This page will look like the im
 
 At this point, the updated microflow should look like the below:
 
-{{< figure src="/updated-Tools_NewEdit-microflow.png" alt="Updated Tools NewEdit microflow" width="100%">}}
+![](/images/updated-Tools_NewEdit-microflow.png)
 
 The next step in building this web application is to add navigation.
 
@@ -148,7 +147,7 @@ The [navigation](https://docs.mendix.com/refguide/navigation/) defines the app s
 2. Add two menu items - “Tools” and “Tools Editor”
 3. Configure each menu item: 1. Set the **On Click** action to **Show Page** and select the appropriate page 1. **Tools:** Links to the **Tools_Overview_Main** page 2. **Tools Editor:** Links to the **Tools_Overview** page 2. For **Close Pages**, set it to "All" to ensure a clean navigation experience.
 
-{{< figure src="/navigation.png" alt="Navigation" width="100%">}}
+![](/images/navigation.png)
 
 Now, the app is ready to be tested and used.
 
@@ -163,7 +162,7 @@ Test the following features:
 
 A visual flow of the inventory web application will look like this:
 
-{{< figure src="/app-visual-flow.gif" alt="App visual flow" width="100%">}}
+![](/images/app-visual-flow.gif)
 
 Congratulations! You have successfully built a hardware store inventory app in Mendix.
 
