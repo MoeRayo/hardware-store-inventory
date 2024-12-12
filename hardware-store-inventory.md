@@ -169,7 +169,7 @@ Congratulations! You have successfully built a hardware store inventory app in M
 
 ## 9 Read More
 
-To learn more about Mendix and enhance your app, explore these additional resources:
+Explore these additional resources to learn more about building with Mendix:
 
 - [Customize styling](https://docs.mendix.com/howto/front-end/customize-styling-new/) in Mendix
 - How to build a [responsive web app](https://docs.mendix.com/quickstarts/responsive-web-app/)
